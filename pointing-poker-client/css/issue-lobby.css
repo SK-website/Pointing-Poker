@@ -1,0 +1,43 @@
+.item-issue {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.issue-icons-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.issue-icons-wrap :first-child {
+  margin-right: 10px;
+}
+
+.issue-edit,
+.issue-delete {
+  background-image: url("../../../../assets/icons/pen.svg");
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.issue-edit:hover,
+.issue-delete:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.issue-delete {
+  background-image: url("../../../../assets/icons/trash.svg");
+}
+
+.issue-name-text {
+  width: 165px;
+  padding-right: 3px;
+  margin-right: 0.5rem;
+  overflow: hidden;
+}
+/*# sourceMappingURL=issue-lobby.css.map */

@@ -1,0 +1,16 @@
+.issue-status {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 0.5rem;
+  font-weight: 700;
+}
+
+.issue-game-delete {
+  background-image: url("../../../../assets/icons/cross.svg");
+}
+
+.issue-game-delete:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=issue-game.css.map */

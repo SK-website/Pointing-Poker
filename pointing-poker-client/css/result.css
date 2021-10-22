@@ -1,0 +1,23 @@
+.result__issue {
+  margin-top: 100px;
+}
+
+.result__cards {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.result__votes {
+  margin-top: 20px;
+  text-align: center;
+}
+/*# sourceMappingURL=result.css.map */

@@ -1,0 +1,23 @@
+.kick-popup__header-title {
+  margin: 0 auto;
+}
+
+.kick-popup__body {
+  text-align: center;
+}
+
+.kick-popup__footer {
+  width: 100%;
+  padding: 0 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.kick-popup__footer-button {
+  width: 100px;
+}
+/*# sourceMappingURL=kickPopup.css.map */

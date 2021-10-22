@@ -1,0 +1,94 @@
+.lobby-link-block,
+.game-control-btn-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.lobby-link-title {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.lobby-link-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  height: 2.4rem;
+  overflow: hidden;
+  margin-bottom: 0;
+  padding-left: 10px;
+  line-height: 2rem;
+  border: 1px solid #24a6ac;
+}
+
+.game-control-btn-block {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.game-control-btn-block .btn-outline-danger {
+  border-color: #dc3545;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.game-control-btn-block .btn-primary {
+  border-color: #6c757d;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.game-control-btn-block .btn-primary:hover {
+  background-color: #ffffff;
+}
+
+.gamer-cancel-game {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.link-styles-cansel {
+  color: #dc3545;
+  text-decoration: none;
+}
+
+.link-styles-cansel:hover {
+  color: #ffffff;
+}
+
+.link-styles-start {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.link-styles-start:hover {
+  color: #0d6efd;
+}
+
+.card-warning {
+  color: #dc3545;
+  font-weight: 700;
+}
+
+.input-avatar {
+  margin-top: 2rem;
+  width: 300px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=lobby.css.map */

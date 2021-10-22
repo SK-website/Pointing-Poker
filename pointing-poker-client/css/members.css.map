@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,kBAAkB;AAClB,iBAAiB,CAAA;EACf,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,UAAU;CAC5B",
+    "sources": [
+        "../src/app/components/scrum/members/members.scss"
+    ],
+    "names": [],
+    "file": "members.css"
+}

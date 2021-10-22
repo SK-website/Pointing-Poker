@@ -1,0 +1,75 @@
+.card-face {
+  width: 7.6rem;
+  height: 11.6rem;
+  margin-right: 10px;
+  margin-bottom: 1rem;
+  padding: 1%;
+  border-radius: 15px;
+  border: 3px solid transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #eeeeee;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.card-data-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card-front-up {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.card-front-down {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.card-front-center {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.card-value-name {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.card-value-name-pass {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.card-value-question {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.card-front-cup {
+  width: 3rem;
+  height: 4rem;
+  background-image: url("../../../../assets/icons/cup.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=cards.css.map */

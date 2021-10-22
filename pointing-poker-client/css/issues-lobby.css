@@ -1,0 +1,33 @@
+.issues-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 2rem;
+}
+
+.add-issue-title {
+  font-size: 1.1rem;
+  color: #0d6efd;
+}
+
+.add-file-block-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.step-block {
+  margin-right: 3rem;
+}
+
+.step {
+  margin-right: 1rem;
+  color: #0d6efd;
+  font-weight: 700;
+}
+/*# sourceMappingURL=issues-lobby.css.map */

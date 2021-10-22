@@ -1,0 +1,23 @@
+.issue-popup__header-title {
+  margin: 0 auto;
+}
+
+.issue-popup__form {
+  margin: 0 10%;
+}
+
+.issue-popup__footer {
+  width: 100%;
+  padding: 0 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.issue-popup__footer-button {
+  width: 100px;
+}
+/*# sourceMappingURL=issue-popup.css.map */

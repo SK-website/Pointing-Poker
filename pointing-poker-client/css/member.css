@@ -1,0 +1,80 @@
+.member-item {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.member-avatar-wrap {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+  background-color: #60dabf;
+  position: relative;
+  overflow: hidden;
+}
+
+.member-avatar {
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  -webkit-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.member-avatar-pic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: block;
+  width: 40px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.member-data {
+  width: calc(100% - (40px + 35px + 20px));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.kick-icon {
+  width: 35px;
+  height: 35px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-image: url("../../../../assets/icons/kick.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.kick-icon:hover {
+  -webkit-box-shadow: 0px 0px 4px 4px #ffc482;
+          box-shadow: 0px 0px 4px 4px #ffc482;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=member.css.map */

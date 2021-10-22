@@ -1,0 +1,55 @@
+.item-issue {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.issue-status {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 0.5rem;
+  font-weight: 700;
+}
+
+.issue-actions-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.issue-actions-wrap :first-child {
+  margin-right: 10px;
+}
+
+.issue-actions {
+  width: 35px;
+  height: 35px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.issue-edit {
+  background-image: url("../../../../assets/icons/pen.svg");
+  background-size: contain;
+  background-position: center;
+  cursor: pointer;
+}
+
+.issue-edit:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.issue-delete {
+  background-image: url("../../../../assets/icons/trash.svg");
+  background-size: contain;
+  background-position: center;
+  cursor: pointer;
+}
+
+.issue-delete:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=issue.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACb,UAAU,EAAE,KAAK;CAClB;;AAED,AAAA,cAAc,CAAC;EACb,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,eAAe,EAAE,UAAU;CAC5B;;AAED,AAAA,cAAc,CAAC;EACb,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,MAAM;CACnB",
+    "sources": [
+        "../src/app/pages/result/result.scss"
+    ],
+    "names": [],
+    "file": "result.css"
+}

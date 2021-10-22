@@ -1,0 +1,20 @@
+.new-issue-name {
+  text-transform: capitalize;
+}
+
+.issue-add {
+  width: 35px;
+  height: 35px;
+  background-image: url("../../../../assets/icons/plus.svg");
+  background-size: contain;
+  background-position: center;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.issue-add:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+/*# sourceMappingURL=new-issue.css.map */

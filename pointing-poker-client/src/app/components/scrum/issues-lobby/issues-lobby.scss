@@ -1,0 +1,22 @@
+.issues-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 2rem;
+}
+.add-issue-title {
+  font-size: 1.1rem;
+  color: #0d6efd;
+}
+
+.add-file-block-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.step-block {
+  margin-right: 3rem;
+}
+.step {
+  margin-right: 1rem;
+  color: #0d6efd;
+  font-weight: 700;
+}

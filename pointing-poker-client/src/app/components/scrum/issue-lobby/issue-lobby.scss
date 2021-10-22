@@ -1,0 +1,37 @@
+.item-issue {
+  justify-content: space-between;
+}
+
+.issue-icons-wrap {
+  display: flex;
+  justify-content: flex-end;
+  :first-child {
+    margin-right: 10px;
+  }
+}
+
+.issue-edit,
+.issue-delete {
+  background-image: url('../../../../assets/icons/pen.svg');
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+.issue-delete {
+  background-image: url('../../../../assets/icons/trash.svg');
+}
+.issue-name-text {
+  width: 165px;
+  padding-right: 3px;
+  margin-right: 0.5rem;
+  overflow: hidden;
+}
+
+.issue {
+  width: 305px !important;
+}
+
+.score-width {
+  width: 100px !important;
+}

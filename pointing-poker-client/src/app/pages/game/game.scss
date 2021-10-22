@@ -1,0 +1,42 @@
+.game {
+  margin: 2% 0;
+}
+
+.game__room {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.game__timer {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.game__issue_current {
+  background-color: #7ef1c5;
+}
+
+.game__issue_next {
+  background-color: #e7f59b;
+}
+
+.game__issue_resolved {
+  background-color: #f5a99b;
+}
+
+.game__card_chosen {
+  width: 7.6rem;
+  height: 11.6rem;
+  margin-right: 10px;
+  margin-bottom: 1rem;
+  padding: 1%;
+  border-radius: 15px;
+  border: 3px solid transparent;
+  box-sizing: border-box;
+  background: #013a2499;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
